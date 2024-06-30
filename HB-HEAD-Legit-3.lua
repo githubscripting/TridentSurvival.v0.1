@@ -15,7 +15,7 @@ if (not _G.Flags) then
 			Size = 3;
 			Enabled = true;
 			Transparency = .7; -- 1 = invisible, 0 = fully visible (0 not recommended)
-			Part = "Head"; -- {"Head","Head","rest of the body parts"}
+			Part = "Head"; -- {"Torso","Head","rest of the body parts"}
 		};
 	};
 end
