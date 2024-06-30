@@ -12,10 +12,10 @@ if (not _G.Flags) then
 			Sleepers = false;
 		};
 		HitboxExpander = {
-			Size = 5;
+			Size = 3;
 			Enabled = true;
 			Transparency = .7; -- 1 = invisible, 0 = fully visible (0 not recommended)
-			Part = "Torso"; -- {"Torso","Head","rest of the body parts"}
+			Part = "Head"; -- {"Torso","Head","rest of the body parts"}
 		};
 	};
 end
@@ -141,7 +141,7 @@ for i,v in pairs(ReplicatedStorage.Shared.entities.Player.Model:GetChildren()) d
 	end
 
 	function IsPlayer(Model)
-		return Model.ClassName == "Model" and Model:FindFirstChild("Torso") and Model.PrimaryPart~=nil;
+		return Model.ClassName == "Model" and Model:FindFirstChild("Head") and Model.PrimaryPart~=nil;
 	end
 
 	function SetColor(Billboard,Color) 
@@ -198,8 +198,8 @@ for i,v in pairs(ReplicatedStorage.Shared.entities.Player.Model:GetChildren()) d
 					Billboard.PlayerDistance.Text = math.round(Distance) .. "s";
 					Billboard.PlayerWeapon.Text = PlayerWeapon(v);
 					
-if (v.Torso.Nametag.tag.Text ~= "") then
-     Billboard.PlayerName.Text = v.Torso.Nametag.tag.Text;
+if (v.Head.Nametag.tag.Text ~= "") then
+     Billboard.PlayerName.Text = v.Head.Nametag.tag.Text;
 end 
 			local Params = RaycastParams.new();
 					Params.FilterDescendantsInstances = {IgnoreFolder,v};
