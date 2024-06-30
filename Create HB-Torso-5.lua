@@ -12,10 +12,10 @@ if (not _G.Flags) then
 			Sleepers = false;
 		};
 		HitboxExpander = {
-			Size = 3;
+			Size = 5;
 			Enabled = true;
 			Transparency = .7; -- 1 = invisible, 0 = fully visible (0 not recommended)
-			Part = "Head"; -- {"Torso","Head","rest of the body parts"}
+			Part = "Torso"; -- {"Torso","Head","rest of the body parts"}
 		};
 	};
 end
@@ -141,7 +141,7 @@ for i,v in pairs(ReplicatedStorage.Shared.entities.Player.Model:GetChildren()) d
 	end
 
 	function IsPlayer(Model)
-		return Model.ClassName == "Model" and Model:FindFirstChild("Head") and Model.PrimaryPart~=nil;
+		return Model.ClassName == "Model" and Model:FindFirstChild("Torso") and Model.PrimaryPart~=nil;
 	end
 
 	function SetColor(Billboard,Color) 
