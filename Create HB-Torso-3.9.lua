@@ -198,8 +198,8 @@ for i,v in pairs(ReplicatedStorage.Shared.entities.Player.Model:GetChildren()) d
 					Billboard.PlayerDistance.Text = math.round(Distance) .. "s";
 					Billboard.PlayerWeapon.Text = PlayerWeapon(v);
 					
-if (v.Torso.Nametag.tag.Text ~= "") then
-     Billboard.PlayerName.Text = v.Torso.Nametag.tag.Text;
+if (v.Head.Nametag.tag.Text ~= "") then
+     Billboard.PlayerName.Text = v.Head.Nametag.tag.Text;
 end 
 			local Params = RaycastParams.new();
 					Params.FilterDescendantsInstances = {IgnoreFolder,v};
