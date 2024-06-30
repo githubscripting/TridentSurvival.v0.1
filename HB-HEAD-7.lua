@@ -9,7 +9,6 @@ if (not _G.Flags) then
 			Weapon = true;
 			Distance = true;
 			VisibleCheck = true;
-			Sleepers = false;
 		};
 		HitboxExpander = {
 			Size = 7;
