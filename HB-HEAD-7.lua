@@ -141,7 +141,7 @@ for i,v in pairs(ReplicatedStorage.Shared.entities.Player.Model:GetChildren()) d
 	end
 
 	function IsPlayer(Model)
-		return Model.ClassName == "Model" and Model:FindFirstChild("Torso") and Model.PrimaryPart~=nil;
+		return Model.ClassName == "Model" and Model:FindFirstChild("Head") and Model.PrimaryPart~=nil;
 	end
 
 	function SetColor(Billboard,Color) 
