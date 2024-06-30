@@ -10,13 +10,13 @@ print'░╚═══██╗██║╚████║██╔══╝░�
 print'██████╔╝██║░╚███║███████╗███████╗░░░██║░░░██╗██║░░░░░╚██████╔╝██████╦╝'
 print'╚═════╝░╚═╝░░╚══╝╚══════╝╚══════╝░░░╚═╝░░░╚═╝╚═╝░░░░░░╚═════╝░╚═════╝░'
 ------------MAIN-------------------------------------0
-Tab:AddButton({ Name = "ESP&hitboxHEAD(rage=7zxy; possible ban)", Callback = function() loadstring(game:HttpGet("1", true))() end })
+Tab:AddButton({ Name = "ESP&hitboxHEAD(rage=7zxy; possible ban)", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/HB-HEAD-7.lua", true))() end })
 ------------------------------
-Tab:AddButton({ Name = "ESP&hitboxHEAD(small heads=5zxy; possible ban)", Callback = function() loadstring(game:HttpGet("1", true))() end })
+Tab:AddButton({ Name = "ESP&hitboxHEAD(small heads=3zxy; possible ban)", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/HB-HEAD-Legit-3.lua", true))() end })
 ------------------------------
-Tab:AddButton({ Name = "ESP&hitbox body(medium=7 zxy; possible ban)", Callback = function() loadstring(game:HttpGet("1", true))() end})
+Tab:AddButton({ Name = "ESP&hitbox body(medium=5 zxy; possible ban)", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/Create%20HB-Torso-5.lua", true))() end})
 ------------------------------
-Tab:AddButton({ Name = "ESP&Hitbox body(legit)", Callback = function() loadstring(game:HttpGet("1", true))() end})
+Tab:AddButton({ Name = "ESP&Hitbox body(legit=3.9(noban))", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/Create%20HB-Torso-3.9.lua", true))() end})
 -----------VISUAL-------------------------------------1
 local Tab = Window:MakeTab({ Name = "Visual", Icon = "rbxassetid://4483345998", PremiumOnly = false })
 ------------------------------
