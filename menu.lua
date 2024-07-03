@@ -24,8 +24,3 @@ local Tab = Window:MakeTab({ Name = "Visual", Icon = "rbxassetid://4483345998", 
 ------------------------------
 Tab:AddButton({ Name = "Night vision", Callback = function() local Light = game:GetService("Lighting") function dofullbright() Light.Ambient = Color3.new(1, 1, 1) Light.ColorShift_Bottom = Color3.new(1, 1, 1) Light.ColorShift_Top = Color3.new(1, 1, 1)end dofullbright() Light.LightingChanged:Connect(dofullbright) end }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
 ------------------------------
-Tab:AddButton({ Name = "Crosshair", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Crosshair-Script/main/Crosshair.lua"))() end})
-------------------------------
-Tab:AddButton({ Name = "FOV keybind = -", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/fov.lua"))() end})
-------------------------------
-Tab:AddButton({ Name = "Hitlog", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/hitlog.lua"))() end})
