@@ -18,7 +18,7 @@ Tab:AddButton({ Name = "ESP&hitbox body(medium=7 zxy; possible ban)", Callback =
 ------------------------------
 Tab:AddButton({ Name = "ESP&hitbox body(medium=5 zxy; possible ban)", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/Create%20HB-Torso-5.lua", true))() end})
 ------------------------------
-Tab:AddButton({ Name = "ESP&Hitbox body(legit)", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/Create%20HB-Torso-3.9.lua", true))() end})
+Tab:AddButton({ Name = "ESP&Hitbox body(legit)", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/Create%20HB-Torso-3.9.lua", true))() end })
 ---------------Visual----------------
 local Tab = Window:MakeTab({ Name = "Visual", Icon = "rbxassetid://4483345998", PremiumOnly = false })
 ------------------------------
@@ -26,6 +26,6 @@ Tab:AddButton({ Name = "Night vision", Callback = function() local Light = game:
 ------------------------------
 Tab:AddButton({ Name = "Crosshair", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Crosshair-Script/main/Crosshair.lua"))() end })
 ------------------------------
-Tab:AddButton({ Name = "FOV keybind = -", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/fov.lua"))() end})
+Tab:AddButton({ Name = "FOV keybind = -", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/fov.lua"))() end })
 ------------------------------
-Tab:AddButton({ Name = "Hitlog", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/hitlog.lua"))() end})
+Tab:AddButton({ Name = "Hitlog", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/hitlog.lua"))() end })
