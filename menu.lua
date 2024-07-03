@@ -26,3 +26,6 @@ Tab:AddButton({ Name = "Night vision", Callback = function() local Light = game:
 ------------------------------
 Tab:AddButton({ Name = "Crosshair", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Crosshair-Script/main/Crosshair.lua"))() end })
 ------------------------------
+Tab:AddButton({ Name = "FOV keybind = -", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/fov.lua"))() end})
+------------------------------
+Tab:AddButton({ Name = "Hitlog", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/githubscripting/TridentSurvival.v0.1/main/hitlog.lua"))() end})
