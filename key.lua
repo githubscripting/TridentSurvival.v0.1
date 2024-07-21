@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "s97dhf7sdf888887878878iyfiuydi" --Put The Correct Key Here
+getgenv().Key = "232232i324324di89834te93u38bfbsdghbdfh" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
